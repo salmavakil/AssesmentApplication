@@ -1,0 +1,7 @@
+<div class="row">
+<ng-container *ngFor="let button of dummyarray; let i=index">
+        <div class="col-md-3">
+    <button class="btn btn-dark tiles" (click)="changeColor(i)" id={{i}} [ngClass]="{blue : clicked.includes(i), red : randNumber==i}" [disabled]="randNumber!=i"></button>
+</div>
+</ng-container>
+</div>

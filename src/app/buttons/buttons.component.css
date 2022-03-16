@@ -1,0 +1,19 @@
+.tiles{
+    padding:10px;
+    margin:30px;
+    width:40px !important;
+    height: 40px !important;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue !important;
+}
+::ng-deep .green-snackbar {
+    background: rgb(151, 231, 151) !important;
+  }
+
+  ::ng-deep .red-snackbar {
+    background: rgb(231, 126, 118) !important;
+  }

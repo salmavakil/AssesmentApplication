@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ButtonformComponent } from './buttonform/buttonform.component';
 
 @Component({
   selector: 'app-root',
